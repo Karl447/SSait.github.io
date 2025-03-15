@@ -1,0 +1,856 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+body {
+    padding-top: 60px ;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+a {
+    color: black;
+}
+
+.input:hover{
+    color: #85b648;
+}
+
+header {
+    height: 771px;
+}
+
+.container {
+    width: 1420px;
+}
+
+.nav {
+    display: flex;
+    position: fixed;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 1000;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
+    align-items: center;
+    margin-left: 400px;
+}
+
+.nav_logo {
+    max-height: 200px;
+    max-width: 200px;
+    margin-left: 82px;
+}
+
+.btn {
+    padding: 15px 25px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.btn:hover{
+    transform: scale(0.9);
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 60px;
+    width: 600px;
+}
+
+.info p {
+    width: 500px;
+    padding-top: 30px;
+    font-size: 20px;
+    padding-bottom: 60px;
+}
+
+.info {
+    margin-top: 70px;
+
+}
+
+.img {
+    position: absolute;
+    top: 160px;
+    left: 750px;
+    width: 600px;
+    height: 515px;
+}
+
+.bt {
+    color: white;
+    padding: 20px 40px;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 20px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.bt:hover{
+    transform: scale(0.9);
+}
+
+.log {
+    position: absolute;
+    top: 730px;
+    left: 35px;
+}
+
+.info_bottom {
+    padding-top: 60px;
+    display: flex;
+}
+
+.info_bottom h2 {
+    font-weight: 700;
+    background-color: #b9ff66;
+    border-radius: 10px;
+    padding: 5px 15px;
+    font-size: 30px;
+    width: 155px;
+}
+
+.info_bottom p {
+    align-items: center;
+    width: 580px;
+    margin-left: 40px;
+}
+
+.cards {
+    padding-top: 100px;
+}
+
+.cards_top {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.cards_middle {
+    display: flex;
+    margin-bottom: 40px;
+}
+.cards_bottom {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+/*animation cards*/
+
+.cards a:hover img{
+    transform: rotate(30deg);
+}
+
+.arrow {
+    transition: transform 0.3s ease;
+}
+
+.icon {
+    display: flex;
+    align-items: center; /* Выравниваем элементы по вертикали */
+    padding-top: 95px;
+    padding-left: 42px;
+}
+
+.icon a {
+    display: flex; /* Используем flexbox для выравнивания */
+    align-items: center; /* Выравниваем текст и изображение по центру */
+}
+
+
+.cards_one{
+    width: 600px;
+    height: 310px;
+    border: 2px solid black;
+    border-bottom: 7px solid black;
+    border-radius: 30px;
+    background-color: #f3f3f3;
+}
+
+
+.icon {
+    display: flex;
+    align-items: center;
+    padding-top: 95px;
+    padding-left: 42px;
+}
+
+.icon h5 {
+    padding-left: 10px;
+}
+
+.q{
+    position: absolute;
+    top: 1180px;
+    left: 420px;
+}
+
+.one {
+    margin-left: 40px;
+    margin-top: 50px;
+    width: 210px;
+
+}
+
+.two {
+    margin-left: 40px;
+    width: 185px;
+}
+.one, .two{
+    background-color: #b9ff66;
+    font-weight: 500;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+/*cards 2*/
+
+.cards_two{
+    width: 600px;
+    height: 310px;
+    border: 2px solid black;
+    border-bottom: 7px solid black;
+    border-radius: 30px;
+    margin-left: 120px;
+    background-color: #b9ff66;
+}
+
+.w{
+    position: absolute;
+    top: 1200px;
+    right: 160px;
+}
+
+.three {
+    margin-left: 40px;
+    margin-top: 50px;
+    width: 197px;
+
+}
+
+.four {
+    margin-left: 40px;
+    width: 167px;
+}
+
+.three, .four{
+    background-color: white;
+    font-weight: 500;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+/*cards 3*/
+
+.cards_three{
+    width: 600px;
+    height: 310px;
+    border: 2px solid black;
+    border-bottom: 7px solid black;
+    border-radius: 30px;
+    background-color:#191a23;
+}
+
+.e{
+    position: absolute;
+    top: 1505px;
+    left: 420px;
+}
+
+.oone{
+    color: white;
+}
+
+.five {
+    margin-left: 40px;
+    margin-top: 50px;
+    width: 185px;
+
+}
+
+.six {
+    margin-left: 40px;
+    width: 150px;
+}
+
+.five, .six{
+    background-color: white;
+    font-weight: 500;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+/*cards 4*/
+
+.cards_four{
+    width: 600px;
+    height: 310px;
+    border: 2px solid black;
+    border-bottom: 7px solid black;
+    border-radius: 30px;
+    margin-left: 120px;
+    background-color: #f3f3f3;
+}
+
+.r{
+    position: absolute;
+    top: 1520px;
+    right: 190px;
+}
+
+.seven {
+    margin-left: 40px;
+    margin-top: 50px;
+    width: 79px;
+
+}
+
+.eight {
+    margin-left: 40px;
+    width: 150px;
+}
+
+.seven, .eight{
+    background-color: #b9ff66;
+    font-weight: 500;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+/*cards 5*/
+
+.cards_five{
+    width: 600px;
+    height: 310px;
+    border: 2px solid black;
+    border-bottom: 7px solid black;
+    border-radius: 30px;
+    background-color: #b9ff66
+}
+
+.t{
+    position: absolute;
+    top: 1870px;
+    left: 410px;
+}
+
+.nine {
+    margin-left: 40px;
+    margin-top: 50px;
+    width: 122px;
+
+}
+
+.ten {
+    margin-left: 40px;
+    width: 125px;
+}
+
+.nine, .ten{
+    background-color: white;
+    font-weight: 500;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+/*cards 6*/
+
+.cards_six{
+    width: 600px;
+    height: 310px;
+    border: 2px solid black;
+    border-bottom: 7px solid black;
+    border-radius: 30px;
+    margin-left: 120px;
+    background-color: #191a23;
+}
+
+.y{
+    position: absolute;
+    top: 1880px;
+    right: 180px;
+}
+
+.eleven {
+    margin-left: 40px;
+    margin-top: 50px;
+    width: 200px;
+
+}
+
+.twelve {
+    margin-left: 40px;
+    width: 125px;
+}
+
+.eleven, .twelve{
+    background-color: white;
+    font-weight: 500;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+
+.bottom {
+    margin-top: 120px;
+    background-color: #f3f3f3;
+    height: 347px;
+    border-radius: 45px;
+}
+
+.bottom h3{
+    font-weight: 500;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-left: 60px;
+}
+
+.bottom p{
+    font-size: 500;
+    padding-left: 60px;
+    width: 500px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.bnt {
+    display: inline-block;
+    margin-left: 60px;
+    background-color: #191a23;
+    color: white;
+    padding: 20px 35px;
+    border-radius: 14px;
+    font-size: 17px;
+    transition: transform 0.3s ease;
+}
+
+.bottom img {
+    position: absolute;
+    right: 240px;
+    top: 2215px;
+}
+.bnt:hover{
+    transform: scale(0.9);
+}
+
+.info_bottomm {
+    padding-top: 140px;
+    display: flex;
+}
+
+.info_bottomm h2 {
+    font-weight: 700;
+    background-color: #b9ff66;
+    border-radius: 10px;
+    padding: 5px 15px;
+    font-size: 30px;
+    width: 220px;
+}
+
+.info_bottomm p {
+    align-items: center;
+    width: 580px;
+    margin-left: 40px;
+}
+
+/*animation*/
+
+.car a:hover img{
+    transform: rotate(-150deg);
+}
+
+.arrow {
+    transition: transform 0.8s ease;
+}
+
+.iicon {
+    display: flex;
+    align-items: center; /* Выравниваем элементы по вертикали */
+}
+
+.iicon a {
+    display: flex; /* Используем flexbox для выравнивания */
+    align-items: center; /* Выравниваем текст и изображение по центру */
+}
+
+.car {
+    position: relative;
+    display: flex;
+    background-color: #191a23;
+    border-radius: 45px;
+    width: 1321px;
+    height: 240px;
+    margin-top: 80px;
+    padding: 60px 70px;
+}
+
+.car p {
+    color: white;
+    font-size: 15px;
+
+}
+
+.left, .middle, .right {
+    width: 286px;
+    color: #85b648;
+
+}
+
+.left {
+    margin-right: 64px;
+}
+
+.middle {
+    margin-left: 64px;
+    margin-right: 64px;
+
+}
+
+.right {
+    margin-left: 64px;
+}
+
+.iicon {
+    display: flex;
+    align-items: center;
+}
+
+.iicon a {
+    display: flex;
+    align-items: center;
+}
+
+.iicon .arrow {
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.iicon h5{
+    color: #b9ff66;
+    margin-top: 20px;
+}
+
+.left::after{
+    content: '';
+    position: absolute;
+    top: 60px;
+    z-index: 5;
+    left: 410px;
+    height: 60%;
+    width: 1px;
+    background-color: #f3f3f3; /* Цвет вертикальной линии */
+}
+
+.middle::after{
+    content: '';
+    position: absolute;
+    top: 60px;
+    z-index: 5;
+    right: 500px;
+    height: 60%;
+    width: 1px;
+    background-color: #f3f3f3; /* Цвет вертикальной линии */
+}
+
+.info_bottommm {
+    padding-top: 140px;
+    display: flex;
+}
+
+.info_bottommm h2 {
+    font-weight: 700;
+    background-color: #b9ff66;
+    border-radius: 10px;
+    padding: 5px 15px;
+    font-size: 30px;
+    width: 330px;
+}
+
+.info_bottommm p {
+    align-items: center;
+    width: 300px;
+    margin-left: 40px;
+}
+
+.caard {
+    margin-top: 60px;
+}
+
+        /* Основные стили карточки */
+        .card {
+            width: 1320px;
+            min-height: 109px;
+            background: #F0F0F0;
+            border-radius: 30px;
+            margin: 20px auto;
+            padding: 34px 40px;
+            box-sizing: border-box;
+            position: relative;
+            transition: all 0.3s ease;
+            border: 1px solid black;
+            border-bottom: 7px solid black;
+        }
+
+        /* Заголовок карточки */
+        .card-header {
+            display: flex;
+            align-items: center;
+        }
+
+        /* Нумерация */
+        .card-number {
+            font-size: 48px;
+            font-weight: bold;
+            margin-right: 24px;
+            color: black;
+        }
+
+        /* Подзаголовок */
+        .card-subtitle {
+            font-size: 24px;
+            color: black;
+        }
+
+        /* Кнопка +/- */
+        .card-toggle {
+            width: 40px;
+            height: 40px;
+            background: #F3F3F3;
+            border: 2px solid black;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 26px;
+            font-weight: bold;
+            cursor: pointer;
+            position: absolute;
+            right: 40px;
+            top: 45px;
+            transition: all 0.3s ease;
+            color: black;
+            font-family: Arial, sans-serif;
+            line-height: 40px;
+            padding: 0;
+        }
+
+        /* Состояние открытой карточки */
+        .card.open {
+            background: #b9ff66;
+        }
+        .card.open .card-toggle {
+            background: #b9ff66;
+            border-color: #666;
+        }
+
+        /* Контент карточки */
+        .card-content {
+            display: none;
+            padding-top: 28px;
+            margin-top: 28px;
+            border-top: 2px solid black;
+            font-size: 18px;
+            color: black;
+        }
+        .card.open .card-content {
+            display: block;
+        }
+
+        .info_bottommmm {
+            padding-top: 100px;
+            margin-bottom: 60px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .info_bottommmm h2 {
+            font-weight: 700;
+            background-color: #b9ff66;
+            border-radius: 5px;
+            padding: 5px 5px;
+            font-size: 30px;
+        }
+        
+        .info_bottommmm p {
+            display: flex;
+            align-items: center;
+            width: 473px;
+            height: 46px;
+            margin-left: 40px;
+        }
+
+.ancet {
+    max-height: 725px;
+}
+
+.ancet_top, .ancet_bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ancet_bottom{
+    margin-top: 30px;
+}
+
+.ancet_one {
+    max-width: 387px;
+    height: 331px;
+    border: 1px solid black;
+    border-bottom: 7px solid black;
+    border-radius: 45px;
+    padding: 40px 35px; 
+}
+
+.top {
+    display: flex;
+    max-width: 317px;
+    justify-content: space-around;
+    padding-bottom: 28px;
+    border-bottom: 2px solid black;
+}
+
+.social {
+    width: 34px;
+    max-height: 34px;
+}
+
+.zagolovok {
+    max-width: 148px;
+    padding-left: 10px ;
+    align-content: flex-end;
+
+}
+
+.text {
+    margin-top: 28px;
+}
+
+
+.bn {
+    position: absolute;
+    right: 100px;
+    margin-top: 24px;
+    background-color: #191a23;
+    color: white;
+    padding: 20px 85px;
+    border-radius: 14px;
+    font-size: 17px;
+    transition: transform 0.3s ease;
+}
+
+.bn:hover {
+    transform: scale(0.9);
+}
+
+
+.info_bottommmmm {
+    padding-top: 200px;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.info_bottommmmm h2 {
+    font-weight: 700;
+    background-color: #b9ff66;
+    border-radius: 5px;
+    padding: 5px 5px;
+    font-size: 30px;
+}
+
+.info_bottommmmm p {
+    display: flex;
+    align-items: center;
+    width: 323px;
+    height: 46px;
+    margin-left: 40px;
+}
+
+/*form*/
+
+.form {
+    margin-top: 60px;
+    padding: 60px 100px;
+    max-height: 700px;
+    background-color: #F3F3F3;
+    border-radius: 45px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.name, .email {
+    margin-bottom: 25px;
+}
+
+#name {
+    padding: 18px 30px;
+    margin-top: 10px;
+    width: 556px;
+    height: 59px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 14px;
+}
+
+#email {
+    padding: 18px 30px;
+    margin-top: 10px;
+    width: 556px;
+    height: 59px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 14px;
+}
+
+.no {
+    resize: none;
+}
+
+#message {
+    padding: 18px 30px;
+    margin-top: 10px;
+    width: 556px;
+    height: 190px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 14px; 
+}
+
+.b{
+    margin-top: 30px;
+}
+
+.bnn {
+    display: inline-block;
+    background-color: #191a23;
+    color: white;
+    padding: 20px 219px;
+    border-radius: 14px;
+    font-size: 17px;
+    transition: transform 0.3s ease;
+}
+
+.bnn:hover {
+    transform: scale(0.9);
+}
+
+.Mask{
+    position: absolute;
+    right: 100px;
+    width: 22%;
+}
+
